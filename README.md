@@ -23,7 +23,7 @@ Fehlt diese Projektdatei, meldet der MakeCode-Dienst
 Beispiel für die erste Aufgabe:
 
 ```text
-https://minecraft.makecode.com/#tutorial:https://github.com/Emre-desertbird/EducationContent-python/lesson1/activity1
+https://minecraft.makecode.com/#tutorial:https://github.com/emre-desertbird/educationcontent-python/lesson1/activity1
 ```
 
 Die Pfade enthalten keinen zusätzlichen Unterordner `python/`. Beim Anpassen einer
@@ -34,11 +34,15 @@ Repository zeigen.
 Für die Fehlersuche kann der tatsächliche MakeCode-Abruf geprüft werden:
 
 ```text
-https://minecraft.makecode.com/api/ghtutorial/Emre-desertbird/EducationContent-python/lesson1/activity1
+https://minecraft.makecode.com/api/ghtutorial/emre-desertbird/educationcontent-python/lesson1/activity1
 ```
 
 Eine erfolgreiche Antwort enthält den Tutorialtext unter
 `markdown.repo.files[markdown.filename]`.
+
+Die Links verwenden einheitlich kleingeschriebene GitHub-Namen. Diese Schreibweise
+wurde nach dem Ergänzen der Projektdatei auch über den MakeCode-CDN geprüft;
+die zuvor verwendeten Links lieferten zeitweise noch einen gespeicherten 404-Fehler.
 
 ## Herkunft
 
