@@ -22,4 +22,4 @@ blocks.place(BRICKS, pos(0, 1, 2))
 blocks.place(BRICKS, pos(0, 2, 3))
 ```
 
-Volle Ziegelblöcke müssen nicht ausgerichtet werden. Du brauchst für diese Aufgabe also kein `blocks.block_with_data()`. Springe anschließend von Block zu Block nach oben.
+Springe anschließend von Block zu Block nach oben.
