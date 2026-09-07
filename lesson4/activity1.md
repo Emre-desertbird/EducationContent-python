@@ -11,6 +11,16 @@ world(0, 0, 0)
 ## Schritt 1
 Erstelle eine Liste namens `My_list`. Trage die Tiere in der Reihenfolge ein, in der du sie in der Spielwelt **von links nach rechts** siehst. Ergänze nach dem vorgegebenen `mobs.spawn()`-Befehl **vier weitere** solche Befehle. Mit ihnen lässt du Tiere an den angegebenen Positionen erscheinen. Die Schilder an den Gehegen helfen dir bei der Zuordnung.
 
+Für die fünf Tiere brauchst du diese englischen Namen im Code:
+
+- Kuh (cow): `COW`
+- Schwein (pig): `PIG`
+- Schaf (sheep): `SHEEP`
+- Pferd (horse): `HORSE`
+- Kaninchen (rabbit): `RABBIT`
+
+Schreibe die Namen in deiner Liste **groß und ohne Anführungszeichen**. Sie stehen für die Tierarten, die Minecraft erscheinen lassen soll. Die Reihenfolge liest du in der Spielwelt ab.
+
 ### ~ tutorialhint 
 Die Positionen in einer Liste heißen **Indizes**. Python zählt sie ab **0**: Das erste Tier hat den Index `0`, das zweite den Index `1` und so weiter.
 
