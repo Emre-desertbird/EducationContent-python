@@ -13,10 +13,22 @@ Der **erste Hund** soll alle Zutaten aus der vorgegebenen Liste bekommen. Änder
 Wähle einen Gegenstand in deiner Schnellzugriffsleiste aus und drücke **Q**, um ihn fallen zu lassen.
 
 ## Schritt 2
-Der **zweite Hund** bekommt dieselben Zutaten und zusätzlich Vitamine. Hänge `Vitamins` mit `append()` an das Ende der Liste an. Passe dann den letzten `blocks.place()`-Befehl so an, dass die Vitamine in die Maschine gelangen. Gib das Futter anschließend an Hund 2.
+Der **zweite Hund** bekommt dieselben Zutaten und zusätzlich Vitamine. Mit `append()` kannst du **einen neuen Eintrag am Ende einer Liste hinzufügen**:
+
+```python
+Listenname.append(neuer_Eintrag)
+```
+
+Hänge `Vitamins` mit `append()` an das Ende der Liste an. Passe dann den letzten `blocks.place()`-Befehl so an, dass die Vitamine in die Maschine gelangen. Gib das Futter anschließend an Hund 2.
 
 ## Schritt 3
-Der **dritte Hund** bekommt die Zutaten aus der Liste, aber **ohne Rindfleisch**. Entferne den Eintrag `Beef` mit `pop()` aus der Liste. Gib das Futter anschließend an Hund 3.
+Der **dritte Hund** bekommt die Zutaten aus der Liste, aber **ohne Rindfleisch**. Mit `pop()` kannst du **einen Eintrag über seinen Index aus einer Liste entfernen**:
+
+```python
+Listenname.pop(index)
+```
+
+Entferne den Eintrag `Beef` mit `pop()` aus der Liste. Gib das Futter anschließend an Hund 3.
 
 ### ~ tutorialhint 
 Bei `pop()` gibst du den **Index** des Eintrags an, den du entfernen möchtest. Denke daran: Der erste Eintrag hat den Index `0`.

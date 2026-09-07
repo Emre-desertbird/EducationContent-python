@@ -7,17 +7,17 @@ player.say("Hallo")
 ```
 
 ## Schritt 1
-Ändere den letzten Namen in der Liste `Cat_Names` zu **"Shadow"**. Passe `player.say()` so an, dass der **letzte** Name der Liste im Chat erscheint. Drücke dann **„Katze auswählen“** (englisch: **select a cat**) und wähle die Katze mit diesem Namen.
+Ändere den letzten Namen in der Liste `Cat_Names` zu **"Shadow"**. Passe `player.say()` so an, dass der **letzte** Name der Liste im Chat erscheint. Drücke dann **„Katze auswählen“** und wähle die Katze mit diesem Namen.
 ### ~ tutorialhint 
 Einen Listeneintrag änderst du nach diesem Muster: `liste[index] = "Neuer Name"`. Setze den Listennamen und den passenden Index ein.
 
 ## Schritt 2
-Sortiere die Katzennamen mit `sort()` alphabetisch. Passe `player.say()` so an, dass der **vierte** Name im Chat erscheint. Achtung: Python zählt ab `0`, deshalb ist `Cat_Names[4]` nicht der vierte Eintrag. Drücke wieder **„Katze auswählen“** (englisch: **select a cat**) und wähle die passende Katze.
+Sortiere die Katzennamen mit `sort()` alphabetisch. Passe `player.say()` so an, dass der **vierte** Name im Chat erscheint. Achtung: Python zählt ab `0`, deshalb ist `Cat_Names[4]` nicht der vierte Eintrag. Drücke wieder **„Katze auswählen“** und wähle die passende Katze.
 ### ~ tutorialhint 
 Die Zählung in Listen beginnt bei **0**.
 
 ## Schritt 3
-Kehre die Reihenfolge der Liste mit `reverse()` um. Lass den Index in `player.say()` unverändert. Drücke **„Katze auswählen“** (englisch: **select a cat**) und wähle die Katze, deren Name jetzt im Chat steht.
+Kehre die Reihenfolge der Liste mit `reverse()` um. Lass den Index in `player.say()` unverändert. Drücke **„Katze auswählen“** und wähle die Katze, deren Name jetzt im Chat steht.
 
 ```template
 Cat_Names= ["Smokey", "Oreo", "Sammy", "Patch", "Princess", "Snowy"]
