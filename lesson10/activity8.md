@@ -28,10 +28,10 @@ while True:
 ## Schritt 1
 Entferne zuerst die einfachen Anführungszeichen (**'**) am Anfang und Ende jeder Zeile. Ergänze den Code so, dass der Agent auf dem Weg zum Goldblock (gold block) jeden Diamantblock (diamond block) unter sich zählt. Am Ziel soll er genau so viele Diamantblöcke **einzeln vor sich** setzen, wie er unterwegs gezählt hat. Ein Kolben stapelt die gesetzten Blöcke automatisch.
 ```template
-'diamond = 0'
+'diamanten = 0'
 'for index in range(11):'
 '    agent.move(FORWARD, 1)'
-'for index2 in range(diamond):'
+'for index2 in range(diamanten):'
 '    agent.place(FORWARD)'
 '    loops.pause(500)'
 ```

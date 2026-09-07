@@ -34,5 +34,5 @@ Finde nun deinen eigenen Zielblock: Kehre dieselbe Liste mit `reverse()` um und 
 Lass die englischen Blocknamen in der Liste stehen, damit die alphabetische Reihenfolge zum Rätsel passt: `DIAMOND` = Diamant, `ICE` = Eis, `EMERALD` = Smaragd, `STONE` = Stein, `WOOD` = Holz, `GOLD` = Gold, `QUARTZ` = Quarz.
 
 ```template
-'block_list = ["DIAMOND", "ICE", "EMERALD", "STONE", "WOOD", "GOLD", "QUARTZ"]'
+'Blockliste = ["DIAMOND", "ICE", "EMERALD", "STONE", "WOOD", "GOLD", "QUARTZ"]'
 ```

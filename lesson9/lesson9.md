@@ -45,29 +45,29 @@ positions.add(agent.get_position(), pos(0, 0, 0))
 
 ## Schritt 4
 **Aufgabe 3 – Punkte zählen:**
-Die vorgegebene Variable `score` speichert den Punktestand. Erhöhe sie für jeden getroffenen Goldblock um **1**. Ändere die Bedingung der `while`-Schleife so, dass sie nur läuft, solange `score` **kleiner oder gleich 15** ist. Zeige mit `gameplay.title()` am Anfang und am Ende des Spiels einen passenden Text an. Damit du `score` innerhalb deiner Funktion verändern kannst, füge dort diese Zeile ein:
+Die vorgegebene Variable `punktestand` speichert den Punktestand. Erhöhe sie für jeden getroffenen Goldblock um **1**. Ändere die Bedingung der `while`-Schleife so, dass sie nur läuft, solange `punktestand` **kleiner oder gleich 15** ist. Zeige mit `gameplay.title()` am Anfang und am Ende des Spiels einen passenden Text an. Damit du `punktestand` innerhalb deiner Funktion verändern kannst, füge dort diese Zeile ein:
 ```
-global score 
+global punktestand
 ```
 
 ### ~ tutorialhint
-**`<=`** bedeutet **„kleiner oder gleich“**. Mit `global score` bezieht sich die Funktion auf die Variable `score`, die außerhalb der Funktion angelegt wurde.
+**`<=`** bedeutet **„kleiner oder gleich“**. Mit `global punktestand` bezieht sich die Funktion auf die Variable `punktestand`, die außerhalb der Funktion angelegt wurde.
 
 
 ```template
 // Schreibe hier deine Funktionen.
 // Definiere Funktion 2. | Aufgabe 2 Teil 1
-// Kennzeichne score mit global als globale Variable. | Aufgabe 3
+// Kennzeichne punktestand mit global als globale Variable. | Aufgabe 3
 // Ergänze eine if-Bedingung: Prüfe den Block 2 Blöcke über dem Agenten. | Aufgabe 2 Teil 1
 // Lass an der Position des Agenten eine Feuerwerksrakete erscheinen. | Aufgabe 2 Teil 1
 // Warte 100 Millisekunden. | Aufgabe 2 Teil 1
 // Ersetze den Block 2 Blöcke über dem Agenten durch AIR (Luft). | Aufgabe 2 Teil 1
-// Erhöhe score um 1. | Aufgabe 3
+// Erhöhe punktestand um 1. | Aufgabe 3
 // Ergänze eine elif-Bedingung: Prüfe den Block 3 Blöcke über dem Agenten. | Aufgabe 2 Teil 2
 // Lass an der Position des Agenten eine Feuerwerksrakete erscheinen. | Aufgabe 2 Teil 2
 // Warte 100 Millisekunden. | Aufgabe 2 Teil 2
 // Ersetze den Block 3 Blöcke über dem Agenten durch AIR (Luft). | Aufgabe 2 Teil 2
-// Erhöhe score um 1. | Aufgabe 3
+// Erhöhe punktestand um 1. | Aufgabe 3
 // Beschreibe hier in einem Kommentar, was die folgende Funktion macht. | Aufgabe 1
 // Definiere Funktion. | Aufgabe 1
 // Ergänze eine if-Bedingung, die mit blocks.test_for_block() auf LIGHT_BLUE_CONCRETE prüft. | Aufgabe 1
@@ -75,14 +75,14 @@ global score
 // Ergänze eine elif-Bedingung, die mit blocks.test_for_block() auf RED_CONCRETE prüft. | Aufgabe 1
 // Lass den Agenten nach rechts gehen. | Aufgabe 1
 // Ersetze die folgenden Hinweise durch deinen Code.
-score = 0
+punktestand = 0
 // Zeige mit gameplay.title() einen Text zum Spielstart an. | Aufgabe 3
-// Lass die while-Schleife nur laufen, solange score <= 15 gilt. | Aufgabe 3
+// Lass die while-Schleife nur laufen, solange punktestand <= 15 gilt. | Aufgabe 3
 // Ergänze eine while-Schleife mit der Bedingung True. | Aufgabe 1
 // Rufe Funktion auf. | Aufgabe 1
 // Rufe Funktion 2 auf. | Aufgabe 2 Teil 1
 // Zeige mit gameplay.title() einen Text zum Spielende an. | Aufgabe 3
 // Lass an der Position des Agenten einen Blitz einschlagen. | Aufgabe 3
-if score > 15
+if punktestand > 15
 player.execute("scoreboard players set @p score 15")
 ```

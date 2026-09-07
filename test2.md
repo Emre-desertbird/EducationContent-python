@@ -2,10 +2,10 @@
 
 ```python
 player.say()
-blocks.place(GRASS, location1)
-location1 = pos(0, 1, 0)
-location1 = pos(0, 2, 0)
-location1 = pos(0, 3, 0)
+blocks.place(GRASS, position1)
+position1 = pos(0, 1, 0)
+position1 = pos(0, 2, 0)
+position1 = pos(0, 3, 0)
 ```
 
 # Testbereich 2
@@ -14,8 +14,8 @@ Testbereich 2
 
 ```ghost
 player.say()
-blocks.place(GRASS, location1)
-location1 = pos(0, 1, 0)
-location1 = pos(0, 2, 0)
-location1 = pos(0, 3, 0)
+blocks.place(GRASS, position1)
+position1 = pos(0, 1, 0)
+position1 = pos(0, 2, 0)
+position1 = pos(0, 3, 0)
 ```
