@@ -27,7 +27,7 @@ while True:
 ```
 
 ## Schritt 1
-Berechne die folgenden vier Rechenausdrücke mit Python. Baue damit einen Weg zum Goldblock für den Agenten. Nimm die Blöcke aus der Truhe und setze sie **von links nach rechts**: bei einem Ergebnis von **1** einen **Diamantblock**, bei **0** einen **Erdblock**.
+Berechne die folgenden vier Rechenausdrücke mit Python. Baue damit einen Weg zum Goldblock (gold block) für den Agenten. Nimm die Blöcke aus der Truhe und setze sie **von links nach rechts**: bei einem Ergebnis von **1** einen **Diamantblock** (diamond block), bei **0** einen **Erdblock** (dirt).
 ```python
 1. 10000 / 10000 + 64.64 + 64.64 - 72 - 57.28
 2. 64 / 4 + 64 / 64 - 128 / 8 - 1

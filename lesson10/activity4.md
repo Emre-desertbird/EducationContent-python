@@ -27,7 +27,7 @@ while True:
 ```
 
 ## Schritt 1
-Im Codefenster steht ein unvollständiger Code. Entferne zuerst die einfachen Anführungszeichen (**'**) am Anfang und Ende jeder Zeile. Der Agent soll Reihe für Reihe durch die Fläche laufen und auf jedem Grasblock eine Blume pflanzen. Ergänze die fehlende Bedingung und korrigiere die äußere Schleife, damit der Ablauf funktioniert.
+Im Codefenster steht ein unvollständiger Code. Entferne zuerst die einfachen Anführungszeichen (**'**) am Anfang und Ende jeder Zeile. Der Agent soll Reihe für Reihe durch die Fläche laufen und auf jedem Grasblock (grass block) eine Blume pflanzen. Ergänze die fehlende Bedingung und korrigiere die äußere Schleife, damit der Ablauf funktioniert.
 ```template
 'for index in range(4):'
 '   for index2 in range(8):'

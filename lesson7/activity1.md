@@ -12,7 +12,7 @@ while True:
 ```
 
 ## Schritt 1
-**Teil 1:** Lass den Agenten vorwärtsgehen, **solange** Redstone-Staub vor ihm liegt. Verwende dafür eine `while`-Schleife. Sie wiederholt ihre Befehle, solange die Bedingung zutrifft.
+**Teil 1:** Lass den Agenten vorwärtsgehen, **solange** Redstone-Staub (redstone dust) vor ihm liegt. Verwende dafür eine `while`-Schleife. Sie wiederholt ihre Befehle, solange die Bedingung zutrifft.
 
 ## Schritt 2
 **Teil 2:** Ergänze den Ablauf so, dass der Agent beim Vorwärtsgehen **rechts von sich eine zwei Blöcke hohe Mauer** baut.

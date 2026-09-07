@@ -26,5 +26,5 @@ while True:
 ```
 
 ## Schritt 1
-Lass den Agenten das Diamanterz hinter sich abbauen und den eingesammelten Diamanten am anderen Ende im Sammelbereich ablegen. Danach soll er zurückgehen, das neu erschienene Smaragderz abbauen und den Smaragd ebenfalls im Sammelbereich ablegen.
+Lass den Agenten das Diamanterz (diamond ore) hinter sich abbauen und den eingesammelten Diamanten am anderen Ende im Sammelbereich ablegen. Danach soll er zurückgehen, das neu erschienene Smaragderz (emerald ore) abbauen und den Smaragd ebenfalls im Sammelbereich ablegen.
 

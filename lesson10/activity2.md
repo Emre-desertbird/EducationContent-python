@@ -27,7 +27,7 @@ while True:
 ```
 
 ## Schritt 1
-Lass den Agenten auf dem Weg bis zum Goldblock vorwärtsgehen. Dabei soll er die Redstone-Lampen aus seinem Inventar auf die Redstone-Blöcke setzen.
+Lass den Agenten auf dem Weg bis zum Goldblock (gold block) vorwärtsgehen. Dabei soll er die Redstone-Lampen (redstone lamp) aus seinem Inventar auf die Redstone-Blöcke (redstone block) setzen.
 
 ### ~ tutorialhint
 Überlege, welche Befehle sich wiederholen. Dafür kannst du eine Schleife verwenden.

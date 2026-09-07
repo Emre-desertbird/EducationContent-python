@@ -19,10 +19,10 @@ elif:
 ```
 
 ## Schritt 1
-**Teil 1:** Schreibe drei Funktionen: eine für den Weg **vorwärts durch eine Reihe**, eine für den Wechsel in die nächste Reihe mit **Linksdrehungen** und eine mit **Rechtsdrehungen**. Rufe sie in einer `for`-Schleife auf. So soll der Agent Reihe für Reihe über jeden Block der Fläche laufen, bis er den Goldblock erreicht.
+**Teil 1:** Schreibe drei Funktionen: eine für den Weg **vorwärts durch eine Reihe**, eine für den Wechsel in die nächste Reihe mit **Linksdrehungen** und eine mit **Rechtsdrehungen**. Rufe sie in einer `for`-Schleife auf. So soll der Agent Reihe für Reihe über jeden Block der Fläche laufen, bis er den Goldblock (gold block) erreicht.
 
 ## Schritt 2
-**Teil 2:** Erweitere deinen Code: Der Agent soll die Grasblöcke auf seinem Weg bearbeiten und jeweils einen Setzling pflanzen. Ergänze dazu in der Funktion für das Vorwärtsgehen eine `if`-`else`-Abfrage, die auf Grasblöcke prüft.
+**Teil 2:** Erweitere deinen Code: Der Agent soll die Grasblöcke (grass block) auf seinem Weg bearbeiten und jeweils einen Setzling (sapling) pflanzen. Ergänze dazu in der Funktion für das Vorwärtsgehen eine `if`-`else`-Abfrage, die auf Grasblöcke prüft.
 
 ```template
 // Schreibe hier deine Funktionen.

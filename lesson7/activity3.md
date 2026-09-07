@@ -12,7 +12,7 @@ while True:
 ```
 
 ## Schritt 1
-**Teil 1:** Der Agent soll der Spur aus Redstone-Staub folgen und links von sich Blöcke setzen. So entsteht das Fundament für das kleine Haus. Verwende **zwei `while`-Schleifen**: eine für die geraden Abschnitte und eine für die Außenecken.
+**Teil 1:** Der Agent soll der Spur aus Redstone-Staub (redstone dust) folgen und links von sich Blöcke setzen. So entsteht das Fundament für das kleine Haus. Verwende **zwei `while`-Schleifen**: eine für die geraden Abschnitte und eine für die Außenecken.
 
 ## Schritt 2
 **Teil 2:** Erweitere den Code für das Fundament des größeren Hauses. Ergänze eine weitere `while`-Schleife mit einem Ablauf für die Innenecken.

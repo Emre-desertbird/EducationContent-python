@@ -26,7 +26,7 @@ while True:
 ```
 
 ## Schritt 1
-Entferne zuerst die einfachen Anführungszeichen (**'**) am Anfang und Ende jeder Zeile. Ergänze den Code so, dass der Agent auf dem Weg zum Goldblock jeden Diamantblock unter sich zählt. Am Ziel soll er genau so viele Diamantblöcke **einzeln vor sich** setzen, wie er unterwegs gezählt hat. Ein Kolben stapelt die gesetzten Blöcke automatisch.
+Entferne zuerst die einfachen Anführungszeichen (**'**) am Anfang und Ende jeder Zeile. Ergänze den Code so, dass der Agent auf dem Weg zum Goldblock (gold block) jeden Diamantblock (diamond block) unter sich zählt. Am Ziel soll er genau so viele Diamantblöcke **einzeln vor sich** setzen, wie er unterwegs gezählt hat. Ein Kolben stapelt die gesetzten Blöcke automatisch.
 ```template
 'diamond = 0'
 'for index in range(11):'

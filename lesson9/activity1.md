@@ -16,7 +16,7 @@ while True:
 ```
 
 ## Schritt 1
-Die Steuerung hat zwei farbige Felder: **Blau** bewegt den Agenten nach **links**, **Rot** nach **rechts**. Schreibe den Code so, dass der Agent in die passende Richtung geht, wenn du auf einem der Felder stehst.
+Die Steuerung hat zwei farbige Felder aus hellblauem Beton (light blue concrete) und rotem Beton (red concrete): **Blau** bewegt den Agenten nach **links**, **Rot** nach **rechts**. Schreibe den Code so, dass der Agent in die passende Richtung geht, wenn du auf einem der Felder stehst.
 
 ### ~ tutorialhint
 Eine `while`-Schleife mit der Bedingung `True` läuft immer weiter. `True` bedeutet „wahr“.

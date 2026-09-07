@@ -13,11 +13,11 @@ if True:
 ```
 
 ## Schritt 1
-**Teil 1:** Verwende eine `if`-`else`-Abfrage: Wenn der Agent den Richtungsblock erreicht, soll er sich nach links drehen. Sonst soll er vorwärtsgehen, bis er auf dem Goldblock steht. Prüfe den Block vor dem Agenten mit `agent.inspect()` und vergleiche das Ergebnis mit der Variablen `left`. So sieht der Prüf-Befehl aus:
+**Teil 1:** Verwende eine `if`-`else`-Abfrage: Wenn der Agent den Richtungsblock erreicht, soll er sich nach links drehen. Sonst soll er vorwärtsgehen, bis er auf dem Goldblock (gold block) steht. Prüfe den Block vor dem Agenten mit `agent.inspect()` und vergleiche das Ergebnis mit der Variablen `left`. So sieht der Prüf-Befehl aus:
 ```python
 agent.inspect(AgentInspection.BLOCK, FORWARD)
 ```
-Nutze die vorgegebenen Variablen: `left = BLUE_GLAZED_TERRACOTTA` steht für die Linksmarkierung, `right = PINK_GLAZED_TERRACOTTA` für die Rechtsmarkierung.
+Die Richtungsblöcke bestehen aus blau glasierter Keramik (blue glazed terracotta) und rosa glasierter Keramik (pink glazed terracotta). Nutze die vorgegebenen Variablen: `left = BLUE_GLAZED_TERRACOTTA` steht für die Linksmarkierung, `right = PINK_GLAZED_TERRACOTTA` für die Rechtsmarkierung.
 ### ~ tutorialhint 
 Mit **`==`** prüfst du, ob zwei Werte gleich sind.
 

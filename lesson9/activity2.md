@@ -26,7 +26,7 @@ while True:
 ```
 
 ## Schritt 1
-Lass den Agenten auf dem Weg vorwärtsgehen und dabei Redstone-Lampen auf die Redstone-Blöcke setzen.
+Lass den Agenten auf dem Weg vorwärtsgehen und dabei Redstone-Lampen (redstone lamp) auf die Redstone-Blöcke (redstone block) setzen.
 
 ### ~ tutorialhint
 Der Agent hat alle benötigten Blöcke bereits in seinem Inventar.

@@ -9,7 +9,7 @@ agent.set_slot(1)
 ```
 
 ## Schritt 1
-**Teil 1:** Lass den Agenten vorwärtsgehen, die **Grasblöcke links von sich** bearbeiten und dort Setzlinge pflanzen. Fasse die Befehle zum Pflanzen in einer **Funktion** zusammen. Das ist ein benannter Ablauf, den du mehrfach aufrufen kannst. So sieht eine Funktion grundsätzlich aus; im Beispiel wird der Boden rechts bearbeitet:
+**Teil 1:** Lass den Agenten vorwärtsgehen, die **Grasblöcke (grass block) links von sich** bearbeiten und dort Setzlinge (sapling) pflanzen. Fasse die Befehle zum Pflanzen in einer **Funktion** zusammen. Das ist ein benannter Ablauf, den du mehrfach aufrufen kannst. So sieht eine Funktion grundsätzlich aus; im Beispiel wird der Boden rechts bearbeitet:
 ```python
 def function_name():
     agent.till(RIGHT)

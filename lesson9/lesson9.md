@@ -26,7 +26,7 @@ while True:
 
 ## Schritt 1
 **Aufgabe 1 – Die Spielsteuerung:**
-Die Steuerung hat zwei farbige Felder: **Blau** bewegt den Agenten nach **links**, **Rot** nach **rechts**. Schreibe den Code so, dass der Agent in die passende Richtung geht, wenn du auf einem der Felder stehst. Mit diesem Befehl prüfst du, ob an einer bestimmten Position ein bestimmter Block liegt. Ersetze `BLOCK_NAME` durch den gesuchten Blocktyp:
+Die Steuerung hat zwei farbige Felder aus hellblauem Beton (light blue concrete) und rotem Beton (red concrete): **Blau** bewegt den Agenten nach **links**, **Rot** nach **rechts**. Schreibe den Code so, dass der Agent in die passende Richtung geht, wenn du auf einem der Felder stehst. Mit diesem Befehl prüfst du, ob an einer bestimmten Position ein bestimmter Block liegt. Ersetze `BLOCK_NAME` durch den gesuchten Blocktyp:
 ```python
 blocks.test_for_block(BLOCK_NAME, pos(0, 0, 0))
 ```
@@ -35,7 +35,7 @@ blocks.test_for_block(BLOCK_NAME, pos(0, 0, 0))
 Eine `while`-Schleife mit der Bedingung `True` läuft immer weiter. `True` bedeutet „wahr“. Lass den bereits vorgegebenen Code im Codefenster stehen.
 
 ## Schritt 2
-**Aufgabe 2 – Goldblöcke treffen, Teil 1:**
+**Aufgabe 2 – Goldblöcke (gold block) treffen, Teil 1:**
 Schreibe eine weitere Funktion, mit der der Agent die Goldblöcke über sich abschießt. Lass dafür mit `mobs.spawn()` eine Feuerwerksrakete (`FIREWORKS_ROCKET`) erscheinen. Ersetze jeden getroffenen Goldblock durch Luft (`AIR`), damit er verschwindet. Mit `agent.get_position()` erhältst du die Position des Agenten. Mit `positions.add()` kannst du davon ausgehend die Position des Goldblocks berechnen. Zusammen sehen die Befehle so aus; passe die Höhe in `pos()` an:
 ```python 
 positions.add(agent.get_position(), pos(0, 0, 0))

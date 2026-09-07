@@ -12,7 +12,7 @@ while True:
 ```
 
 ## Schritt 1
-Lass den Agenten vorwärtsgehen, solange Redstone-Staub vor ihm liegt. Dabei soll er **links von sich eine einen Block hohe Mauer** bauen. Wenn das Gelände ansteigt, soll er nach oben gehen und die Mauer auf der neuen Höhe fortsetzen.
+Lass den Agenten vorwärtsgehen, solange Redstone-Staub (redstone dust) vor ihm liegt. Dabei soll er **links von sich eine einen Block hohe Mauer** bauen. Wenn das Gelände ansteigt, soll er nach oben gehen und die Mauer auf der neuen Höhe fortsetzen.
 
 ```template
 // Ersetze die folgenden Hinweise durch deinen Code.

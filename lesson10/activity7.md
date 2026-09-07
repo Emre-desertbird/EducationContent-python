@@ -26,4 +26,4 @@ while True:
 ```
 
 ## Schritt 1
-Lass den Agenten bis zum Goldblock vorwärtsgehen. Unterwegs soll er die Melonen abbauen und die Kürbisse stehen lassen.
+Lass den Agenten bis zum Goldblock (gold block) vorwärtsgehen. Unterwegs soll er die Melonen (melon block) abbauen und die Kürbisse (pumpkin) stehen lassen.

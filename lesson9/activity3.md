@@ -26,6 +26,6 @@ while True:
 ```
 
 ## Schritt 1
-Berechne die vier Aufgaben im Spiel mit Python. Baue mit den Ergebnissen einen Weg zum Goldblock für den Agenten: Setze bei **1** einen **Diamantblock** und bei **0** einen **Erdblock**.
+Berechne die vier Aufgaben im Spiel mit Python. Baue mit den Ergebnissen einen Weg zum Goldblock (gold block) für den Agenten: Setze bei **1** einen **Diamantblock** (diamond block) und bei **0** einen **Erdblock** (dirt).
 
 

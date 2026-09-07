@@ -22,7 +22,7 @@ agent.detect(AgentDetection.BLOCK, LEFT)
 **Teil 2:** Ändere den Code so, dass der Agent vorwärtsgeht, wenn links von ihm **kein Block** liegt. Schreibe dafür `not` vor die Bedingung. Das bedeutet „nicht“ und kehrt das Ergebnis der Prüfung um.
 
 ## Schritt 3
-**Teil 3:** Lass den Agenten nach der Pause mit `loops.pause()` weitergehen, damit er den letzten Goldblock erreicht.
+**Teil 3:** Lass den Agenten nach der Pause mit `loops.pause()` weitergehen, damit er den letzten Goldblock (gold block) erreicht.
 
 ### ~ tutorialhint
 **1000 Millisekunden (ms)** entsprechen **1 Sekunde**.
