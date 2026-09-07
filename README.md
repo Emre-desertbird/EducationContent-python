@@ -11,6 +11,34 @@ herausgelöst aus dem Unterordner [`python/`](https://github.com/Mojang/Educatio
 | `TutorialFinish.md` | Abschlussseite der Tutorials |
 | `noCodingRequired.md` | Variante ohne Programmieranteil |
 | `test123.md`, `test2.md` | Testtutorials aus dem Original-Repo |
+| `pxt.json` | MakeCode-Projektdatei mit den benötigten Paketen und allen Tutorial-Dateien |
+
+## Tutorials in Minecraft laden
+
+MakeCode benötigt neben den Markdown-Dateien die Datei `pxt.json` im
+Hauptverzeichnis. Neue Tutorials müssen dort in der Liste `files` ergänzt werden.
+Fehlt diese Projektdatei, meldet der MakeCode-Dienst
+`failed to fetch pxt.json; 404`, auch wenn die Markdown-Dateien auf GitHub erreichbar sind.
+
+Beispiel für die erste Aufgabe:
+
+```text
+https://minecraft.makecode.com/#tutorial:https://github.com/Emre-desertbird/EducationContent-python/lesson1/activity1
+```
+
+Die Pfade enthalten keinen zusätzlichen Unterordner `python/`. Beim Anpassen einer
+Weltdatei müssen sowohl die Links in den `.mcfunction`-Dateien als auch der
+gespeicherte Startlink `EDU_CurrentCodingURL_…` in der Weltdatenbank auf dieses
+Repository zeigen.
+
+Für die Fehlersuche kann der tatsächliche MakeCode-Abruf geprüft werden:
+
+```text
+https://minecraft.makecode.com/api/ghtutorial/Emre-desertbird/EducationContent-python/lesson1/activity1
+```
+
+Eine erfolgreiche Antwort enthält den Tutorialtext unter
+`markdown.repo.files[markdown.filename]`.
 
 ## Herkunft
 
