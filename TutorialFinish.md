@@ -3,8 +3,8 @@
 ```python
 player.say
 ```
-## Introduction @unplugged
-Congratulations, you have finished the lesson!
+## Einstieg @unplugged
+Geschafft! Du hast diese Lektion abgeschlossen.
 
-## Step 1 
-Congratulations, you have finished the lesson!
+## Schritt 1
+Geschafft! Du hast diese Lektion abgeschlossen.

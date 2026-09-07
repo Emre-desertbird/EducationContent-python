@@ -1,11 +1,11 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Row by row.
+# Reihe für Reihe
 
 ```python
 agent.move(FORWARD, 5)
 pos(0, 0, 0)
-player.say("Finished")
+player.say("Fertig")
 agent.place(LEFT)
 agent.inspect(AgentInspection.BLOCK, DOWN) 
 agent.turn(RIGHT_TURN)
@@ -25,5 +25,5 @@ while True:
     pass
 ```
 
-## Step 1
-Can you make the Agent move over every block in the area sideways, row by row, without it turning? 
+## Schritt 1
+Lass den Agenten Reihe für Reihe über jeden Block der Fläche laufen. Er soll sich dabei seitwärts bewegen, ohne sich zu drehen.

@@ -1,5 +1,5 @@
 ### @explicitHints true
-# Activity 2 - Spin cycle.
+# Aufgabe 2 – Im Schleudergang
 
 ```python
 for i in range(2):
@@ -11,29 +11,26 @@ agent.turn(LEFT)
 
 ```
 
-## Step 1
-**Part 1:** Write some code so that the Agent will pick up the dirty laundry, move **forward** into the machine, spin left **20** times and then get out of
-the machine to place the clean laundry on the other side of where the dirty laundry was.
+## Schritt 1
+**Teil 1:** Der Agent soll die schmutzige Wäsche einsammeln und **vorwärts** in die Waschmaschine bringen. Dort soll er sich **20-mal nach links** drehen. Danach soll er die saubere Wäsche einsammeln, aus der Maschine gehen und sie auf der anderen Seite des Bereichs mit der schmutzigen Wäsche ablegen.
 
-## Step 2
-**Part 2:** Edit the same code so that the Agent does the same thing but for **3** loads of laundry. Do this by using a `||loops: for||` loop before all of the other 
-code.
+## Schritt 2
+**Teil 2:** Erweitere deinen Code für **drei Ladungen Wäsche**. Setze dafür eine weitere `for`-Schleife um den gesamten bisherigen Ablauf.
 
 ### ~ tutorialhint 
-Don't forget that, in this case, two loops should not have the same variable name, so rename the second loop. 
-To indent a large piece of code highlight all the code you want to indent and press the **tab** key. 
+Verwende für die beiden Schleifen unterschiedliche Zählvariablen, zum Beispiel `i` und `j`. Wenn du mehrere Zeilen auf einmal einrücken möchtest, markiere sie und drücke die **Tab-Taste**.
 
 ```template
-//Replace the lines below with your code #    
-//loop number 2 set to 3                              | Part 2
+// Ersetze die folgenden Hinweise durch deinen Code.
+// Ergänze eine for-Schleife (Schleife 2) mit 3 Wiederholungen. | Teil 2
 agent.collect_all()
 agent.move(FORWARD, 7)
 agent.drop_all(FORWARD)
-//loop number 1                              | Part 1
-//make the Agent turn left 20 times          | Part 1 
-//end of loop 1
-//make the Agent collect all                 | Part 1          
-//make the Agent move back                   | Part 1
-//make the Agent drop everything to the left | Part 1
-//end of loop 2
+// Ergänze eine for-Schleife (Schleife 1). | Teil 1
+// Lass den Agenten sich mit der Schleife 20-mal nach links drehen. | Teil 1
+// Ende der Schleife 1.
+// Lass den Agenten alle Gegenstände einsammeln. | Teil 1
+// Lass den Agenten rückwärtsgehen. | Teil 1
+// Lass den Agenten alle Gegenstände links von sich ablegen. | Teil 1
+// Ende der Schleife 2.
 ```

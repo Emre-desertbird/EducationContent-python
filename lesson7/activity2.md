@@ -1,6 +1,6 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 2 - Firebreak. 
+# Aufgabe 2 – Eine Mauer gegen das Feuer
 
 ```python
 agent.turn(LEFT_TURN)
@@ -11,21 +11,19 @@ while True:
       pass
 ```
 
-## Step 1
-Write some code to make the Agent move forward when there is Redstone dust in front of it.
-While moving forward the Agent should make a one-block high wall to its left.
-When it encounters a change in terrain height the Agent needs to move up and continue the wall.
+## Schritt 1
+Lass den Agenten vorwärtsgehen, solange Redstone-Staub vor ihm liegt. Dabei soll er **links von sich eine einen Block hohe Mauer** bauen. Wenn das Gelände ansteigt, soll er nach oben gehen und die Mauer auf der neuen Höhe fortsetzen.
 
 ```template
-//Replace the lines below with your code #
-//While loop 1 with an Agent detect Redstone condition 
-//While loop 2 with an Agent detect block condition 
+// Ersetze die folgenden Hinweise durch deinen Code.
+// Ergänze eine while-Schleife (Schleife 1) mit agent.detect() zur Prüfung auf Redstone-Staub.
+// Ergänze eine while-Schleife (Schleife 2) mit agent.detect() zur Prüfung auf einen Block.
 agent.place(LEFT)
-//Make the Agent move up                            
-//Make the Agent place a block to its left         
-//Make the Agent move forward
-//End of while loop 2
-//Make the Agent place a block to its left         
-//Make the Agent move forward
-//End while loop 1                         
+// Lass den Agenten nach oben gehen.
+// Lass den Agenten links von sich einen Block setzen.
+// Lass den Agenten vorwärtsgehen.
+// Ende der while-Schleife 2.
+// Lass den Agenten links von sich einen Block setzen.
+// Lass den Agenten vorwärtsgehen.
+// Ende der while-Schleife 1.
 ```

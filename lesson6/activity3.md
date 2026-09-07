@@ -1,6 +1,6 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 3 -  Getting through. 
+# Aufgabe 3 – Hindernissen ausweichen
 
 ```python
 agent.detect(AgentDetection.BLOCK, FORWARD) 
@@ -12,26 +12,23 @@ if True:
       pass
 ```
 
-## Step 1
-Write some code to make the Agent detect and avoid randomly placed blocks, as it moves through the course. To do this use an 
-`||logic:if else||` conditional with an **elif** conditional in between. For the **if** condition use two `||agent:agent detect||` commands 
-with an **and not** operator in between them. For the **elif** condition use two `||agent:agent detect||` commands 
-with an **and** operator in between them. An example of two conditions with an **and not** operator:
+## Schritt 1
+Lass den Agenten die zufällig verteilten Hindernisse erkennen und ihnen ausweichen. Verwende dafür `if`, `elif` und `else`. Verbinde in der `if`-Bedingung zwei Prüfungen mit `agent.detect()` durch **`and not`**. In der `elif`-Bedingung verbindest du zwei Prüfungen durch **`and`**. Das folgende Muster zeigt `and not`. Ersetze `DIRECTION` jeweils durch die Richtung, die du prüfen möchtest:
 ```python
 agent.detect(AgentDetection.BLOCK, DIRECTION) and not agent.detect(AgentDetection.BLOCK, DIRECTION)
 ```
 
 ### ~ tutorialhint 
-When using more than one condition together you can use an **and** or **and not** to check multiple states. 
+Mit `and` müssen **beide** Bedingungen zutreffen. Bei `and not` muss die erste Bedingung zutreffen und die zweite **nicht**.
 
 ```template
-//Replace the lines below with your code #    
-//for loop set to 23                                            
-//if else conditional with two Agent detect commands, seperated by an and not operator
+// Ersetze die folgenden Hinweise durch deinen Code.
+// Ergänze eine for-Schleife mit 23 Wiederholungen.
+// Ergänze eine if-Bedingung mit zwei agent.detect()-Prüfungen, verbunden durch and not.
 agent.move(LEFT, 1)                              
-//elif conditional with two Agent detect commands, seperated by an and operator
+// Ergänze eine elif-Bedingung mit zwei agent.detect()-Prüfungen, verbunden durch and.
 agent.move(RIGHT, 2)
-//else part of the else if conditional             
+// Ergänze den else-Zweig.
 agent.move(FORWARD, 1)                                   
-//End of loop                                       
+// Ende der Schleife.
 ```

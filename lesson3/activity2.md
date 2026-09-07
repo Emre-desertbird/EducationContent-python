@@ -3,19 +3,17 @@
 
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 2 - Ideal planting spot.
+# Aufgabe 2 – Der richtige Platz zum Pflanzen
 
 ```python
 blocks.place()
 ```
-# Activity 2 - Ideal planting spot.
+# Aufgabe 2 – Der richtige Platz zum Pflanzen
 
-## Step 1
-Look at each of the **5** different location variables and see what crops are at these coordinates. Then create
-**5** `||blocks: place block at position||` commands ,with either **PUMPKIN** or **MELON_BLOCK**, at the correct location variable 
-to match the crop at the coordinate. To see the coordinates and coding window at same time, click on the half coding window button in the top left-hand corner. 
+## Schritt 1
+Die **fünf Variablen** `location1` bis `location5` speichern Positionen in der Spielwelt. Schau nach, welche Pflanzen an diesen Koordinaten stehen. Schreibe dann **fünf** `blocks.place()`-Befehle. Verwende jeweils die passende Positionsvariable und den Blocktyp `PUMPKIN` (Kürbis) oder `MELON_BLOCK` (Melone). Mit dem Knopf oben links kannst du das Codefenster auf die halbe Breite verkleinern. So siehst du die Spielwelt und deinen Code gleichzeitig.
 ### ~ tutorialhint
-blocks.place(**crop type**, **location variable**)
+Bei `blocks.place()` kommt zuerst der **Blocktyp** und dann die **Positionsvariable**, getrennt durch ein Komma.
 
 
 ```template
@@ -24,12 +22,12 @@ location2 = world(-31, 40, -11)
 location3 = world(-28, 40, -16)
 location4 = world(-25, 40, -13)
 location5 = world(-31, 40, -17)
-//Replace the lines below with your code #
+// Ersetze die folgenden Hinweise durch deinen Code.
 
-//place block at location1 command
-//place block at location2 command
-//place block at location3 command
-//place block at location4 command
-//place block at location5 command
+// Setze einen Block an der Position location1.
+// Setze einen Block an der Position location2.
+// Setze einen Block an der Position location3.
+// Setze einen Block an der Position location4.
+// Setze einen Block an der Position location5.
 
 ```

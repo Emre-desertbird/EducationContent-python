@@ -1,11 +1,11 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Depths of the earth. 
+# Schätze aus der Erde
 
 ```python
 agent.move(FORWARD, 5)
 pos(0, 0, 0)
-player.say("Finished")
+player.say("Fertig")
 agent.place(LEFT)
 agent.inspect(AgentInspection.BLOCK, DOWN) 
 agent.turn(RIGHT_TURN)
@@ -25,7 +25,6 @@ while True:
     pass
 ```
 
-## Step 1
-Make the Agent mine the diamond ore behind it, and then drop the mined diamond into the collection area at the other end. Make the Agent return, 
-mine the emerald ore that will appear and drop it in the collection area. 
+## Schritt 1
+Lass den Agenten das Diamanterz hinter sich abbauen und den eingesammelten Diamanten am anderen Ende im Sammelbereich ablegen. Danach soll er zurückgehen, das neu erschienene Smaragderz abbauen und den Smaragd ebenfalls im Sammelbereich ablegen.
 

@@ -1,34 +1,30 @@
 ### @explicitHints true
 
-# Activity 3 - Are my calculations off?
+# Aufgabe 3 – Stimmt die Rechnung?
 
 ```python
-player.say("hi")
+player.say("Hallo")
 item +=1
 ```
 
-## Step 1
-Look at tv monitor number 1 and calculate the sum shown by creating a new variable called **cost**. Run the code to show the total cost in the chat.
-Press the matching button for that total. 
+## Schritt 1
+Schau dir die Rechnung auf Bildschirm 1 an. Erstelle eine Variable namens `cost` (Gesamtkosten), in der du das Ergebnis speicherst. Führe den Code aus, damit die Gesamtkosten im Chat erscheinen. Drücke dann den Knopf mit dem passenden Ergebnis. Die Variablen stehen für Apfel (`apple`), Melone (`melon`), Beeren (`berries`) und Kartoffel (`potato`).
 
-## Step 2
-Look at tv monitor number two. You now need to add a new crop, **pumpkin**. Do this by creating a variable called **pumpkin** and then set its value
-as a formula that is the difference between the variables **berries** and **apple**. Add the new variable **pumpkin** to the variable **cost**. Then run the 
-code and press the correct button. 
+## Schritt 2
+Auf Bildschirm 2 kommt ein Kürbis dazu. Erstelle dafür die Variable `pumpkin`. Berechne ihren Wert als Differenz aus `berries` und `apple`, also Beerenpreis minus Apfelpreis. Rechne `pumpkin` zu den Gesamtkosten in `cost` dazu. Führe den Code aus und drücke den passenden Knopf.
 
-## Step 3 
-Look at the last tv monitor, the value of the crops **apple** and **melon** have now changed. **Apple** has increased in price by **2**, 
-and **melon** has decreased in price by **3**. Account for this change in your code by using **+=** and **-=** operators.
+## Schritt 3
+Auf dem letzten Bildschirm haben sich zwei Preise geändert: Der Apfel (`apple`) kostet jetzt **2 mehr**, die Melone (`melon`) **3 weniger**. Passe die Werte mit `+=` und `-=` an. Damit kannst du einen Wert erhöhen oder verringern.
 
 ```template
 apple = 10
 melon = 15
 berries = 20
 potato = 2
-//Replace the lines below with your code #
-//replace with pumpkin variable | Step 2
-//apple change                          | Step 3
-//melon change                          | Step 3
-//cost variable        | Step 1
+// Ersetze die folgenden Hinweise durch deinen Code.
+// Lege die Variable pumpkin an. | Schritt 2
+// Passe den Wert von apple an. | Schritt 3
+// Passe den Wert von melon an. | Schritt 3
+// Berechne die Gesamtkosten und speichere sie in cost. | Schritt 1
 player.say(cost)
 ``` 

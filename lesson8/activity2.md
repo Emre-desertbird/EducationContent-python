@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 2 - Breaking boulders.
+# Aufgabe 2 – Steine aus dem Weg räumen
 
 ```python
 agent.destroy(FORWARD)
@@ -16,39 +16,39 @@ else:
     pass
 ```
 
-## Step 1
-**Part 1:** Write some code to make the Agent move forward while breaking and collecting each **stone** block in its way.
+## Schritt 1
+**Teil 1:** Lass den Agenten vorwärtsgehen und dabei jeden **Steinblock** auf seinem Weg abbauen und einsammeln.
 ### ~ tutorialhint
-Agent inspect condition command structure:  
+Mit dieser Bedingung prüfst du den Blocktyp. Ersetze `DIRECTION` durch die gewünschte Richtung und `BLOCK_TYPE` durch den gesuchten Blocktyp:
 ```python
 agent.inspect(AgentInspection.BLOCK, DIRECTION) == BLOCK_TYPE
 ```
 
-## Step 2 
-**Part 2:** Add to the code to now make the Agent till and plant saplings on the **grass** blocks.  
+## Schritt 2
+**Teil 2:** Ergänze deinen Code so, dass der Agent auch **Grasblöcke** bearbeitet und dort Setzlinge pflanzt.
 ### ~ tutorialhint
-Agent inspect condition command structure:  
+Mit dieser Bedingung prüfst du den Blocktyp. Ersetze `DIRECTION` durch die gewünschte Richtung und `BLOCK_TYPE` durch den gesuchten Blocktyp:
 ```python
 agent.inspect(AgentInspection.BLOCK, DIRECTION) == BLOCK_TYPE
 ```
 
 ```template
-//Place your functions below #
-//Replace with comment about function below                  |Part 1   
-//Declare function 1                                         |Part 1
-//Make the Agent destroy the block forward                   |Part 1
+// Schreibe hier deine Funktionen.
+// Beschreibe hier in einem Kommentar, was die folgende Funktion macht. | Teil 1
+// Definiere Funktion 1. | Teil 1
+// Lass den Agenten den Block vor sich abbauen. | Teil 1
     agent.move(FORWARD, 1)
-//Replace with comment about function below                          |Part 2   
-//Declare function 2                                                 |Part 2
-//Make the Agent move forward                                        |Part 2
-//Make the Agent till back                                           |Part 2
-//Make the Agent place back                                          |Part 2
-//Replace the lines below with your code #  
-//For loop set to 12                                         |Part 1
-//If else conditional with Agent inspect condition for STONE |Part 1
-//Call function for removing rocks                           |Part 1
-//Elif conditional with Agent inspect condition for GRASS            |Part 2            
-//Call function for planting trees                                   |Part 2
-//Else part of if else conditional                           |Part 1
-//Make the Agent move forward                                |Part 1          
+// Beschreibe hier in einem Kommentar, was die folgende Funktion macht. | Teil 2
+// Definiere Funktion 2. | Teil 2
+// Lass den Agenten vorwärtsgehen. | Teil 2
+// Lass den Agenten den Boden hinter sich bearbeiten. | Teil 2
+// Lass den Agenten hinter sich einen Setzling pflanzen. | Teil 2
+// Ersetze die folgenden Hinweise durch deinen Code.
+// Ergänze eine for-Schleife mit 12 Wiederholungen. | Teil 1
+// Ergänze eine if-else-Abfrage, die mit agent.inspect() auf STONE prüft. | Teil 1
+// Rufe die Funktion zum Entfernen von Steinen auf. | Teil 1
+// Ergänze eine elif-Bedingung, die mit agent.inspect() auf GRASS prüft. | Teil 2
+// Rufe die Funktion zum Pflanzen von Bäumen auf. | Teil 2
+// Ergänze den else-Zweig. | Teil 1
+// Lass den Agenten vorwärtsgehen. | Teil 1
 ```

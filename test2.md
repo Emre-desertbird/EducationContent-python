@@ -8,9 +8,9 @@ location1 = pos(0, 2, 0)
 location1 = pos(0, 3, 0)
 ```
 
-#TESTING GROUNDS 2
-## Step 1
-TESTING GROUND 2
+# Testbereich 2
+## Schritt 1
+Testbereich 2
 
 ```ghost
 player.say()

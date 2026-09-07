@@ -1,11 +1,11 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Pumpkin or melon? 
+# Kürbis oder Melone?
 
 ```python
 agent.move(FORWARD, 5)
 pos(0, 0, 0)
-player.say("Finished")
+player.say("Fertig")
 agent.place(LEFT)
 agent.inspect(AgentInspection.BLOCK, DOWN) 
 agent.turn(RIGHT_TURN)
@@ -25,5 +25,5 @@ while True:
     pass
 ```
 
-## Step 1
-Make the Agent move forward to the gold block while breaking the melons but leaving the pumpkins alone. 
+## Schritt 1
+Lass den Agenten bis zum Goldblock vorwärtsgehen. Unterwegs soll er die Melonen abbauen und die Kürbisse stehen lassen.

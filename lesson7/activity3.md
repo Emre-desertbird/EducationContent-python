@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 3 - Home reconstruction. 
+# Aufgabe 3 – Ein Fundament fürs Haus
 
 ```python
 agent.turn(LEFT_TURN)
@@ -11,32 +11,29 @@ while True:
       pass
 ```
 
-## Step 1
-**Part 1:** Write some code to make the Agent follow the guideline of Redstone dust and place blocks to its left to make the small house's foundation.
-Use **two** `||loops:while||` loops with **two** sequences, one for the straight sections and one for the outside corners. 
+## Schritt 1
+**Teil 1:** Der Agent soll der Spur aus Redstone-Staub folgen und links von sich Blöcke setzen. So entsteht das Fundament für das kleine Haus. Verwende **zwei `while`-Schleifen**: eine für die geraden Abschnitte und eine für die Außenecken.
 
-## Step 2 
-**Part 2:** Add to the code to make the Agent build the foundation of a larger house. Write a additional `||loops:while||` loop with 
-an additional sequences for the inside corners.  
+## Schritt 2
+**Teil 2:** Erweitere den Code für das Fundament des größeren Hauses. Ergänze eine weitere `while`-Schleife mit einem Ablauf für die Innenecken.
 ### ~ tutorialhint 
-When writing the sequence for the inside corners it needs to include a part where 
-the Agent needs to move one block beyond the outline to place a block, and then move back. 
+An einer Innenecke muss der Agent einen Block über die vorgegebene Umrisslinie hinausgehen. Dort setzt er einen Block und geht anschließend wieder zurück.
 
 ```template
-//Replace the lines below with your code #    
-//While loop 1 with an Agent detect condition |Part 1
-//Make the Agent place a block to its left    |Part 1       
-//Make the Agent move forward                 |Part 1 
-//While loop 2 with an Agent detect condition |Part 1
+// Ersetze die folgenden Hinweise durch deinen Code.
+// Ergänze eine while-Schleife (Schleife 1) mit agent.detect(). | Teil 1
+// Lass den Agenten links von sich einen Block setzen. | Teil 1
+// Lass den Agenten vorwärtsgehen. | Teil 1
+// Ergänze eine while-Schleife (Schleife 2) mit agent.detect(). | Teil 1
 agent.turn(LEFT_TURN)
-//Make the Agent move forward                 |Part 1
-//End of while loop 2
-//While loop 3 with an Agent detect condition         |Part 2
-//Make the Agent place a block to its left            |Part 2        
-//Make the Agent move forward                         |Part 2
-//Make the Agent place a block to its left            |Part 2        
-//Make the Agent move back                            |Part 2
-//Make the Agent turn right                           |Part 2                 
-//End of while loop 3
-//End of while loop 1                        
+// Lass den Agenten vorwärtsgehen. | Teil 1
+// Ende der while-Schleife 2.
+// Ergänze eine while-Schleife (Schleife 3) mit agent.detect(). | Teil 2
+// Lass den Agenten links von sich einen Block setzen. | Teil 2
+// Lass den Agenten vorwärtsgehen. | Teil 2
+// Lass den Agenten links von sich einen Block setzen. | Teil 2
+// Lass den Agenten rückwärtsgehen. | Teil 2
+// Lass den Agenten sich nach rechts drehen. | Teil 2
+// Ende der while-Schleife 3.
+// Ende der while-Schleife 1.
 ```

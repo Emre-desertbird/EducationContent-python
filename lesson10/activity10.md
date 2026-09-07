@@ -1,12 +1,12 @@
 ### @explicitHints true
 ### @hideIteration true 
 
-# Do I need to list it out? 
+# Der richtige Block aus der Liste
 
 ```python
 agent.move(FORWARD, 5)
 pos(0, 0, 0)
-player.say("Finished")
+player.say("Fertig")
 agent.place(LEFT)
 agent.inspect(AgentInspection.BLOCK, DOWN) 
 agent.turn(RIGHT_TURN)
@@ -26,11 +26,12 @@ while True:
     pass
 ```
 
-## Step 1
-You have been given a list. Delete the quotes (**'**) from the begining and end of each line. To find what block type the Agent should stand on, **sort** the list alphabetically
-and get the **second** block from the list. Stand on the correct block type and press the button to teleport the Agent there. 
-To find what block type your player should stand on **reverse**  the list and **pop** the **fourth** block in the list. 
-Get the **sixth** block from the list and stand on that block. 
+## Schritt 1
+Entferne die einfachen Anführungszeichen (**'**) am Anfang und Ende der vorgegebenen Zeile. Finde dann heraus, auf welchem Block der Agent stehen soll: Sortiere die Liste mit `sort()` alphabetisch und lies den **zweiten Eintrag** aus. Stelle dich auf den passenden Block und drücke den Knopf, um den Agenten dorthin zu teleportieren.
+
+Finde nun deinen eigenen Zielblock: Kehre dieselbe Liste mit `reverse()` um und entferne mit `pop()` den **vierten Eintrag**. Lies danach den **sechsten Eintrag** aus und stelle dich auf diesen Block. Denke daran, dass Python die Indizes ab **0** zählt.
+
+Lass die englischen Blocknamen in der Liste stehen, damit die alphabetische Reihenfolge zum Rätsel passt: `DIAMOND` = Diamant, `ICE` = Eis, `EMERALD` = Smaragd, `STONE` = Stein, `WOOD` = Holz, `GOLD` = Gold, `QUARTZ` = Quarz.
 
 ```template
 'block_list = ["DIAMOND", "ICE", "EMERALD", "STONE", "WOOD", "GOLD", "QUARTZ"]'

@@ -1,11 +1,10 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 2 - All of the lights.
+# Aufgabe 2 – Bring die Lampen zum Leuchten
 
 ```python
 blocks.place(GRASS_BLOCK, pos(0, 0, 0))
 ```
 
-## Step 1
-Place the **redstone lamps** in the light fittings at the specified heights by changing the **second** coordinate 
-of the **second** parameter in the `||blocks: place block at position||` command.
+## Schritt 1
+Setze **Redstone-Lampen** auf den angegebenen Höhen in die Lampenhalterungen. Der zweite Parameter von `blocks.place()` gibt die Position an. Ändere dort in `pos(x, y, z)` die **zweite Zahl**, also die Höhe `y`.

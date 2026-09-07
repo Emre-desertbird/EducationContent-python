@@ -1,37 +1,30 @@
 ### @explicitHints true
 
-# Activity 3 - What is the cats name?
+# Aufgabe 3 – Wie heißt die Katze?
 
 ```python
-player.say("hi")
+player.say("Hallo")
 ```
 
-## Step 1
-Set the last name in the list of cat names to now equal the string **Shadow**. 
-Change the value inside the `||player:say||` command so that it displays the **last** name in the list. 
-Then press the **select a cat** button and choose the cat shown in the chat.   
+## Schritt 1
+Ändere den letzten Namen in der Liste `Cat_Names` zu **"Shadow"**. Passe `player.say()` so an, dass der **letzte** Name der Liste im Chat erscheint. Drücke dann **„Katze auswählen“** (englisch: **select a cat**) und wähle die Katze mit diesem Namen.
 ### ~ tutorialhint 
-To change a value in a list use: List_Name[positional value] = "New Cat Name" .
+Einen Listeneintrag änderst du nach diesem Muster: `liste[index] = "Neuer Name"`. Setze den Listennamen und den passenden Index ein.
 
-## Step 2
-Sort the list of cat names alphabetically using the **sort** method. 
-Then change the value inside the `||player:say||` command so that it displays the **fourth** name in the list.   
-Don't forget, lists count from 0, so the 4th item won't be `Cat_Names[4]`.    
-Then press the **select a cat** button and choose the cat shown in the chat.   
+## Schritt 2
+Sortiere die Katzennamen mit `sort()` alphabetisch. Passe `player.say()` so an, dass der **vierte** Name im Chat erscheint. Achtung: Python zählt ab `0`, deshalb ist `Cat_Names[4]` nicht der vierte Eintrag. Drücke wieder **„Katze auswählen“** (englisch: **select a cat**) und wähle die passende Katze.
 ### ~ tutorialhint 
-Remember that list positions start from zero. 
+Die Zählung in Listen beginnt bei **0**.
 
-## Step 3
-Reverse the list of cat names using the **reverse** method. 
-Keep the same value inside the `||player:say||` command.
-Then press the **select a cat** button and choose the cat shown in the chat.   
+## Schritt 3
+Kehre die Reihenfolge der Liste mit `reverse()` um. Lass den Index in `player.say()` unverändert. Drücke **„Katze auswählen“** (englisch: **select a cat**) und wähle die Katze, deren Name jetzt im Chat steht.
 
 ```template
 Cat_Names= ["Smokey", "Oreo", "Sammy", "Patch", "Princess", "Snowy"]
-//Replace the lines below with your code #   
-//Change the last name to shadow           | Step 1
-//Sort the names alphabetically in the list         | Step 2
-//Reverse all names                                          | Step 3 
-//Change the value of the list below | Step 1,2,3
+// Ersetze die folgenden Hinweise durch deinen Code.
+// Ändere den letzten Namen zu "Shadow". | Schritt 1
+// Sortiere die Namen in der Liste alphabetisch. | Schritt 2
+// Kehre die Reihenfolge der Namen in der Liste um. | Schritt 3
+// Passe den Listenindex im folgenden Befehl an. | Schritt 1,2,3
 player.say(Cat_Names[0])  
 ```

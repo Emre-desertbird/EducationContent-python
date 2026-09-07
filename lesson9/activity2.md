@@ -1,11 +1,11 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Blinding lights. 
+# Licht an!
 
 ```python
 agent.move(FORWARD, 5)
 pos(0, 0, 0)
-player.say("Finished")
+player.say("Fertig")
 agent.place(LEFT)
 agent.inspect(AgentInspection.BLOCK, DOWN) 
 agent.turn(RIGHT_TURN)
@@ -25,9 +25,9 @@ while True:
     pass
 ```
 
-## Step 1
-Make the Agent place the Redstone lamps on top of the Redstone blocks lights while walking forwards on the walkway.
+## Schritt 1
+Lass den Agenten auf dem Weg vorwärtsgehen und dabei Redstone-Lampen auf die Redstone-Blöcke setzen.
 
 ### ~ tutorialhint
-The Agent already have all of the required blocks in its inventory.
+Der Agent hat alle benötigten Blöcke bereits in seinem Inventar.
 

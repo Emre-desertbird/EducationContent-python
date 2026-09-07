@@ -1,11 +1,11 @@
 ### @explicitHints true
 
-# Diamond or dirt?
+# Diamant oder Erde?
 
 ```python
 agent.move(FORWARD, 5)
 pos(0, 0, 0)
-player.say("Finished")
+player.say("Fertig")
 agent.place(LEFT)
 agent.inspect(AgentInspection.BLOCK, DOWN) 
 agent.turn(RIGHT_TURN)
@@ -25,7 +25,7 @@ while True:
     pass
 ```
 
-## Step 1
-Calculate these four sums using code. You need to get the Agent to the gold block, do this by placing a diamond or dirt block depending on the answer of the sums.  If the answer is 1 place a diamond block, if its 0 place a dirt block. 
+## Schritt 1
+Berechne die vier Aufgaben im Spiel mit Python. Baue mit den Ergebnissen einen Weg zum Goldblock für den Agenten: Setze bei **1** einen **Diamantblock** und bei **0** einen **Erdblock**.
 
 

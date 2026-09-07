@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 3 - Pasture of trees. 
+# Aufgabe 3 – Eine Fläche voller Bäume
 
 ```python
 agent.turn(RIGHT_TURN)
@@ -18,44 +18,42 @@ elif:
     pass
 ```
 
-## Step 1
-**Part 1:** Write three new functions with different sequences, one to make the Agent **move forward**, one to **turn left**, and one to **turn right**. 
-Then use these functions in a `||loops:for||` loop to make the Agent pass over every block in the area, row by row, until it reaches the gold block.
+## Schritt 1
+**Teil 1:** Schreibe drei Funktionen: eine für den Weg **vorwärts durch eine Reihe**, eine für den Wechsel in die nächste Reihe mit **Linksdrehungen** und eine mit **Rechtsdrehungen**. Rufe sie in einer `for`-Schleife auf. So soll der Agent Reihe für Reihe über jeden Block der Fläche laufen, bis er den Goldblock erreicht.
 
-## Step 2 
-**Part 2:** Add to the code to make the Agent till the grass blocks that it passes over and plant a sapling.
-Do this by adding an `||logic:if else||` conditional, that inspects for grass blocks, in the function that moves the Agent forward. 
+## Schritt 2
+**Teil 2:** Erweitere deinen Code: Der Agent soll die Grasblöcke auf seinem Weg bearbeiten und jeweils einen Setzling pflanzen. Ergänze dazu in der Funktion für das Vorwärtsgehen eine `if`-`else`-Abfrage, die auf Grasblöcke prüft.
 
 ```template
-//Place your functions below #  
-//Add to the comment below, as it has now changed             |Part 2
-//Replace with comment about function below           |Part 1    
-//Declare function 1                                  |Part 1
-//For loop 1 set to 9                                 |Part 1
-//If else conditional with Agent inspect condition            |Part 2
-//Add function that plants saplings                           |Part 2
-//Place the command below in the else part of the conditional |Part 2
-//Make the Agent move forward                         |Part 1
-//End of loop 1
-//Replace with comment about function below           |Part 1    
-//Declare function 2                                  |Part 1
-//Make the Agent turn right                           |Part 1
-//Make the Agent move forward                         |Part 1
-//Make the Agent turn right                           |Part 1
-//Replace with comment about function below           |Part 1    
-//Declare function 3                                  |Part 1
-//Make the Agent turn left                            |Part 1
+// Schreibe hier deine Funktionen.
+// Passe den Kommentar an die erweiterte Funktion an. | Teil 2
+// Beschreibe hier in einem Kommentar, was die folgende Funktion macht. | Teil 1
+// Definiere Funktion 1. | Teil 1
+// Ergänze eine for-Schleife (Schleife 1) mit 9 Wiederholungen. | Teil 1
+// Ergänze eine if-else-Abfrage mit agent.inspect(). | Teil 2
+// Rufe die Funktion zum Pflanzen von Setzlingen auf. | Teil 2
+// Setze den folgenden Befehl in den else-Zweig. | Teil 2
+// Lass den Agenten vorwärtsgehen. | Teil 1
+// Ende der Schleife 1.
+// Beschreibe hier in einem Kommentar, was die folgende Funktion macht. | Teil 1
+// Definiere Funktion 2. | Teil 1
+// Lass den Agenten sich nach rechts drehen. | Teil 1
+// Lass den Agenten vorwärtsgehen. | Teil 1
+// Lass den Agenten sich nach rechts drehen. | Teil 1
+// Beschreibe hier in einem Kommentar, was die folgende Funktion macht. | Teil 1
+// Definiere Funktion 3. | Teil 1
+// Lass den Agenten sich nach links drehen. | Teil 1
     agent.move(FORWARD, 1)
-//Make the Agent turn left                            |Part 1
-//Replace with comment about function below                   |Part 2 
-//Declare function 4                                          |Part 2
-//Make the Agent move forward                                 |Part 2
-//Make the till back                                          |Part 2
-//Make the place back                                         |Part 2
-//Replace the lines below with your code #
-//For loop 2 set to 4                                 |Part 1
-//Call function to make Agent move forward            |Part 1
-//Call function to make Agent turn right              |Part 1
-//Call function to make Agent move forward            |Part 1
-//Call function to make Agent turn left               |Part 1                       
+// Lass den Agenten sich nach links drehen. | Teil 1
+// Beschreibe hier in einem Kommentar, was die folgende Funktion macht. | Teil 2
+// Definiere Funktion 4. | Teil 2
+// Lass den Agenten vorwärtsgehen. | Teil 2
+// Lass den Agenten den Boden hinter sich bearbeiten. | Teil 2
+// Lass den Agenten hinter sich einen Setzling pflanzen. | Teil 2
+// Ersetze die folgenden Hinweise durch deinen Code.
+// Ergänze eine for-Schleife (Schleife 2) mit 4 Wiederholungen. | Teil 1
+// Rufe die Funktion für das Vorwärtsgehen auf. | Teil 1
+// Rufe die Funktion für den Reihenwechsel nach rechts auf. | Teil 1
+// Rufe die Funktion für das Vorwärtsgehen auf. | Teil 1
+// Rufe die Funktion für den Reihenwechsel nach links auf. | Teil 1
 ```

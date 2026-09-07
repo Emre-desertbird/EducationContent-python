@@ -1,16 +1,15 @@
 ### @explicitHints true
 ### @hideIteration true 
 
-# Activity 2 - Whats missing?
+# Aufgabe 2 – Was fehlt?
 
 ```python
 player.say()
 ```
 
-## Step 1
-Find out what syntax is missing from the codes on the tv monitors, then place the matching syntax blocks, from the chest, on the gold.
-Check the command syntax by using the `||player: say||` command from the `||player:player||` group on the left side of the coding window.
+## Schritt 1
+In den Befehlen auf den Bildschirmen fehlen Zeichen. Diese Schreibregeln nennt man **Syntax**. Finde heraus, welche Zeichen fehlen. Nimm die passenden Zeichenblöcke aus der Truhe und setze sie auf die Goldblöcke. Schau dir zum Vergleichen den Befehl `player.say()` an. Du findest ihn links im Codefenster in der Gruppe `player` (Spieler).
 
 #### ~ tutorialhint 
-If you want to remove the syntax blocks, use the **try again** button by talking to the developer. 
+Wenn du die Zeichenblöcke entfernen möchtest, sprich mit der Entwicklerfigur im Spiel. Wähle **„Erneut versuchen“** (englisch: **try again**).
 

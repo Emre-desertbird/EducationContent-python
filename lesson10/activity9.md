@@ -1,11 +1,11 @@
 ### @explicitHints true
 ### @hideIteration true 
-# The Agent labyrinth.
+# Der Agent im Labyrinth
 
 ```python
 agent.move(FORWARD, 5)
 pos(0, 0, 0)
-player.say("Finished")
+player.say("Fertig")
 agent.place(LEFT)
 agent.inspect(AgentInspection.BLOCK, DOWN) 
 agent.turn(RIGHT_TURN)
@@ -25,9 +25,8 @@ while True:
     pass
 ```
 
-## Step 1
-Navigate the Agent through the maze. Write some code to use the colored blocks as forward, left, and right control directions for the Agent to move in.
-Then control the Agent to the end of the maze by standing on the colored blocks. 
+## Schritt 1
+Steuere den Agenten durch das Labyrinth. Schreibe dafür Code, der die farbigen Blöcke als Steuerfelder für **vorwärts**, **links** und **rechts** nutzt. Stelle dich dann auf die passenden Felder, um den Agenten bis zum Ausgang zu führen.
 
 ### ~ tutorialhint
-Try using a endlessly repeating while loop.
+Eine `while`-Schleife mit der Bedingung `True` läuft immer weiter. `True` bedeutet „wahr“.

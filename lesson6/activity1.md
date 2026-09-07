@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 1 -  Stop and go.
+# Aufgabe 1 – Anhalten und weitergehen
 
 ```python
 loops.pause(2000)
@@ -12,31 +12,29 @@ if True:
 agent.detect(AgentDetection.BLOCK, FORWARD)
 ```
 
-## Step 1
-**Part 1:** Write some code so that the Agent will only move when there **is** a block on its left side. 
-Use a `||agent: agent detect||` command for the condition: 
+## Schritt 1
+**Teil 1:** Der Agent soll nur vorwärtsgehen, wenn **links von ihm ein Block liegt**. Prüfe das mit `agent.detect()`. Diese Prüfung ist die Bedingung für deinen `if`-Befehl:
 ```python
 agent.detect(AgentDetection.BLOCK, LEFT)
 ```
 
-## Step 2
-**Part 2:** Edit the code so that the Agent moves when there **no** block to its left. 
-Do this by adding a **not** operator before the condition. 
+## Schritt 2
+**Teil 2:** Ändere den Code so, dass der Agent vorwärtsgeht, wenn links von ihm **kein Block** liegt. Schreibe dafür `not` vor die Bedingung. Das bedeutet „nicht“ und kehrt das Ergebnis der Prüfung um.
 
-## Step 3
-**Part 3:** Make the Agent move again after the `||loops:pause||` command to reach the last gold block.
+## Schritt 3
+**Teil 3:** Lass den Agenten nach der Pause mit `loops.pause()` weitergehen, damit er den letzten Goldblock erreicht.
 
 ### ~ tutorialhint
-**1000** ms is **1** second.
+**1000 Millisekunden (ms)** entsprechen **1 Sekunde**.
 
 ```template
-//Replace the lines below with your code #    
-//for loop set to 7                            |Part 1
-//Add the operator NOT to the condition below          |Part 2 
-//if conditional with an Agent detect condition|Part 1
-//Make the Agent move forward                  |Part 1
-//if conditional with an Agent detect condition                |Part 3
+// Ersetze die folgenden Hinweise durch deinen Code.
+// Ergänze eine for-Schleife mit 7 Wiederholungen. | Teil 1
+// Ergänze not vor der folgenden Bedingung. | Teil 2
+// Ergänze eine if-Bedingung mit agent.detect(). | Teil 1
+// Lass den Agenten vorwärtsgehen. | Teil 1
+// Ergänze eine if-Bedingung mit agent.detect(). | Teil 3
 loops.pause(2000)
-//Make the Agent move forward                                  |Part 3
-//End of loop
+// Lass den Agenten vorwärtsgehen. | Teil 3
+// Ende der Schleife.
 ```

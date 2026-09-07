@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 1 - One row at a time. 
+# Aufgabe 1 – Eine Reihe bepflanzen
 
 ```python
 agent.till(RIGHT)
@@ -8,42 +8,40 @@ agent.move(FORWARD, 5)
 agent.set_slot(1)
 ```
 
-## Step 1
-**Part 1:** Write some code to make the Agent move forward while tilling and planting saplings, on the **grass** blocks, to its left. Example of 
-function structure: 
+## Schritt 1
+**Teil 1:** Lass den Agenten vorwärtsgehen, die **Grasblöcke links von sich** bearbeiten und dort Setzlinge pflanzen. Fasse die Befehle zum Pflanzen in einer **Funktion** zusammen. Das ist ein benannter Ablauf, den du mehrfach aufrufen kannst. So sieht eine Funktion grundsätzlich aus; im Beispiel wird der Boden rechts bearbeitet:
 ```python
 def function_name():
     agent.till(RIGHT)
 ```
 
 ### ~ tutorialhint 
-Remember to describe, in a comment, what your function does.  
+Beschreibe in einem kurzen Kommentar, was deine Funktion macht. Ein Python-Kommentar beginnt mit `#`.
 
-## Step 2 
-**Part 2:** Add to the code to make the Agent use fertilizer on the saplings, **6** times each.
+## Schritt 2
+**Teil 2:** Ergänze deinen Code so, dass der Agent jeden Setzling **sechsmal** düngt.
 ### ~ tutorialhint 
-The Agent has fertilizer in its **second** inventory slot. Switch between the Agent's **first** and **second** slots using the `||agent:set active slot||`
-command.  
+Der Dünger liegt im **zweiten Inventarfach** des Agenten. Mit `agent.set_slot()` wechselst du zwischen dem **ersten** und **zweiten** Fach.
 
 ```template
-//Replace with your functions below #
-//Replace with comment about function below   |Part 1   
-//Declare your function                       |Part 1
-//Set the Agent's inventory slot to 1                 |Part 2
-//Make the Agent till to its left             |Part 1
-//Make the Agent place a sapling to its left  |Part 1
-//Set the Agent's inventory slot to 2                 |Part 2
-//Make the Agent place fertilizer to its left         |Part 2
-//Make the Agent place fertilizer to its left         |Part 2
-//Make the Agent place fertilizer to its left         |Part 2
-//Make the Agent place fertilizer to its left         |Part 2
-//Make the Agent place fertilizer to its left         |Part 2
-//Make the Agent place fertilizer to its left         |Part 2
-//Replace the lines below with your code #    
+// Schreibe hier deine Funktionen.
+// Beschreibe hier in einem Kommentar, was die folgende Funktion macht. | Teil 1
+// Definiere deine Funktion. | Teil 1
+// Wähle Inventarfach 1 des Agenten aus. | Teil 2
+// Lass den Agenten den Boden links von sich bearbeiten. | Teil 1
+// Lass den Agenten links von sich einen Setzling pflanzen. | Teil 1
+// Wähle Inventarfach 2 des Agenten aus. | Teil 2
+// Lass den Agenten den Setzling links von sich düngen. | Teil 2
+// Lass den Agenten den Setzling links von sich düngen. | Teil 2
+// Lass den Agenten den Setzling links von sich düngen. | Teil 2
+// Lass den Agenten den Setzling links von sich düngen. | Teil 2
+// Lass den Agenten den Setzling links von sich düngen. | Teil 2
+// Lass den Agenten den Setzling links von sich düngen. | Teil 2
+// Ersetze die folgenden Hinweise durch deinen Code.
 agent.move(FORWARD, 1)
-//Call your function                          |Part 1
-//Make the Agent move forward                 |Part 1
-//Call your function                          |Part 1
-//Make the Agent move forward                 |Part 1
-//Call your function                          |Part 1                 
+// Rufe deine Funktion auf. | Teil 1
+// Lass den Agenten vorwärtsgehen. | Teil 1
+// Rufe deine Funktion auf. | Teil 1
+// Lass den Agenten vorwärtsgehen. | Teil 1
+// Rufe deine Funktion auf. | Teil 1
 ```

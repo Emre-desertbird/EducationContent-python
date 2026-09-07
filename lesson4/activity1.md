@@ -1,6 +1,6 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 1 - Animal categorizing.
+# Aufgabe 1 – Tiere zuordnen
 
 ```python
 blocks.place()
@@ -8,13 +8,11 @@ mobs.spawn()
 world(0, 0, 0)
 ```
 
-## Step 1
-Write some code with a list, named **My_list**, of the animals going from **left** to **right** in the Minecraft world. 
-Place **4** more `||mobs:spawn mob at position||` commands after the one that's already given. Use the information from the signs 
-on the pens to complete these commands. 
+## Schritt 1
+Erstelle eine Liste namens `My_list`. Trage die Tiere in der Reihenfolge ein, in der du sie in der Spielwelt **von links nach rechts** siehst. Ergänze nach dem vorgegebenen `mobs.spawn()`-Befehl **vier weitere** solche Befehle. Mit ihnen lässt du Tiere an den angegebenen Positionen erscheinen. Die Schilder an den Gehegen helfen dir bei der Zuordnung.
 
 ### ~ tutorialhint 
-Remember that list positions start from zero. 
+Die Positionen in einer Liste heißen **Indizes**. Python zählt sie ab **0**: Das erste Tier hat den Index `0`, das zweite den Index `1` und so weiter.
 
 ```template 
 location1 = world(-2, 40, -11)
@@ -22,13 +20,13 @@ location2 = world(-2, 40, -5)
 location3 = world(-8, 40, -0)
 location4 = world(-13, 40, -5)
 location5 = world(-13, 40, -11)
-//Replace the lines below with your code #   
+// Ersetze die folgenden Hinweise durch deinen Code.
 
-//list of animals 
+// Erstelle die Liste der Tiere.
 
 mobs.spawn(My_list[0], location1)
-//spawn the third mob from the list at location2
-//spawn the fifth mob from the list at location3
-//spawn the second mob from the list at location4
-//spawn the fourth mob from the list at location5
+// Lass das dritte Tier aus der Liste an der Position location2 erscheinen.
+// Lass das fünfte Tier aus der Liste an der Position location3 erscheinen.
+// Lass das zweite Tier aus der Liste an der Position location4 erscheinen.
+// Lass das vierte Tier aus der Liste an der Position location5 erscheinen.
 ```

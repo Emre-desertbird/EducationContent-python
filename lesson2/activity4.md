@@ -1,13 +1,12 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 4 - Getting across.
+# Aufgabe 4 – Auf die andere Seite
 
 ```python
 blocks.place(GRASS_BLOCK, pos(0, 0, 0))
 ```
 
-## Step 1
-Write some code to construct a line of floor made out of five **plank oak** blocks to get over to the other side. You will need to change the **first** and **second** coordinate of the **second**
-parameter in the `||blocks: place block at position||` commands. You must make sure that you build at floor height.
+## Schritt 1
+Baue mit Python einen Weg aus **fünf Eichenholzbretterblöcken**, damit du auf die andere Seite kommst. Ändere dafür in den `blocks.place()`-Befehlen die **erste und zweite Zahl** der Position, also `x` und `y`. Achte darauf, dass der Weg auf Bodenhöhe liegt.
 ### ~ tutorialhint 
-Try using negative numbers as the coordinates.
+Probiere auch negative Zahlen für die Position aus.

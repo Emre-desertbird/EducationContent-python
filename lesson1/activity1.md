@@ -2,15 +2,13 @@
 ### @hideIteration true 
 
 
-# Activity 1 - Which one is right?
+# Aufgabe 1 – Welcher Befehl stimmt?
 
-## Step 1
-Check which one of the commands written on the computer monitors is correct and shows **"Hi"** in the chat when run.
-Press the mouse button on the right side of the monitor in the game if the code runs correctly.
-Click on the hints if you need help.
+## Schritt 1
+Schau dir die Befehle auf den Bildschirmen an. Welcher ist richtig geschrieben und zeigt beim Ausführen **"Hi"** im Chat an? Drücke im Spiel den Knopf rechts neben dem passenden Bildschirm. Wenn du Hilfe brauchst, öffne den Hinweis.
 
 ### ~ tutorialhint 
-The command structure in Minecraft python is:
+Ein Python-Befehl in Minecraft ist so aufgebaut: Befehlsgruppe, Punkt, Befehlsname und runde Klammern. Das folgende Muster zeigt dir die Reihenfolge:
 ```python
 command_group.command_name()
 ```

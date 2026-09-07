@@ -1,5 +1,5 @@
 ### @explicitHints true
-# Activity 1 -  Too heavy!
+# Aufgabe 1 – Zu schwer!
 
 ```python
 for i in range(2):
@@ -9,11 +9,10 @@ agent.move(FORWARD, 5)
 agent.place(FORWARD)
 ```
 
-## Step 1
-**Part 1:** Write some code so that the Agent will pick up the box and move **6** blocks **forward** and then place it **forward**.
+## Schritt 1
+**Teil 1:** Programmiere den Agenten, deinen Roboterhelfer im Spiel: Er soll die Kiste einsammeln, **6 Blöcke vorwärts** gehen und die Kiste **vor sich** abstellen.
 
-## Step 2
-**Part 2:** Edit the same code so that the Agent goes back to the starting point. It needs to do the same thing but **4** times. Use a `||loops: for||` loop at the beginning. 
-The boxes will be automatically stacked. 
+## Schritt 2
+**Teil 2:** Ergänze deinen Code so, dass der Agent danach zum Start zurückkehrt. Er soll den gesamten Ablauf **viermal** wiederholen. Verwende dafür eine `for`-Schleife, also eine Wiederholung, um den bisherigen Ablauf herum. Die Kisten werden automatisch gestapelt.
 ### ~ tutorialhint 
-Don't forget to indent everything after the loop using the **tab** key on the keyboard.
+Rücke alle Befehle, die zur Schleife gehören, mit der **Tab-Taste** ein. So erkennt Python, welche Befehle wiederholt werden sollen.

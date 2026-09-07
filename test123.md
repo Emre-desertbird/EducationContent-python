@@ -1,20 +1,20 @@
 ### @explicitHints true
 
-# Activity 2 - Breaking boulders.
+# Aufgabe 2 – Steine aus dem Weg räumen
 
 
-## Step 1
-**Part 1:** Write some code to make the Agent move forward while breaking and collecting each **stone** block in its way.
+## Schritt 1
+**Teil 1:** Lass den Agenten vorwärtsgehen und dabei jeden **Steinblock** auf seinem Weg abbauen und einsammeln.
 ### ~ tutorialhint
-Agent inspect condition command structure:  
+Mit dieser Bedingung prüfst du den Blocktyp. Ersetze `DIRECTION` durch die gewünschte Richtung und `BLOCK_TYPE` durch den gesuchten Blocktyp:
 ```python
 agent.inspect(AgentInspection.BLOCK, DIRECTION) == BLOCK_TYPE
 ```
 
-## Step 2 
-**Part 2:** Add to the code to now make the Agent till and plant saplings on the **grass** blocks.  
+## Schritt 2
+**Teil 2:** Ergänze deinen Code so, dass der Agent auch **Grasblöcke** bearbeitet und dort Setzlinge pflanzt.
 ### ~ tutorialhint
-Agent inspect condition command structure:  
+Mit dieser Bedingung prüfst du den Blocktyp. Ersetze `DIRECTION` durch die gewünschte Richtung und `BLOCK_TYPE` durch den gesuchten Blocktyp:
 ```python
 agent.inspect(AgentInspection.BLOCK, DIRECTION) == BLOCK_TYPE
 ```

@@ -1,12 +1,12 @@
 ### @explicitHints true
 ### @hideIteration true 
 
-# Blinding lights. 
+# Licht an!
 
 ```python
 agent.move(FORWARD, 5)
 pos(0, 0, 0)
-player.say("Finished")
+player.say("Fertig")
 agent.place(LEFT)
 agent.inspect(AgentInspection.BLOCK, DOWN) 
 agent.turn(RIGHT_TURN)
@@ -26,9 +26,9 @@ while True:
     pass
 ```
 
-## Step 1
-Make the Agent place the Redstone lamps in its inventory on top of the Redstone blocks while walking forwards on the walkway to the gold block.
+## Schritt 1
+Lass den Agenten auf dem Weg bis zum Goldblock vorwärtsgehen. Dabei soll er die Redstone-Lampen aus seinem Inventar auf die Redstone-Blöcke setzen.
 
 ### ~ tutorialhint
-Try using a loop.
+Überlege, welche Befehle sich wiederholen. Dafür kannst du eine Schleife verwenden.
 

@@ -1,6 +1,6 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 1 - Game controls.  
+# Aufgabe 1 – Die Spielsteuerung
 
 ```python
 agent.move(FORWARD, 5)
@@ -15,22 +15,21 @@ while True:
     pass
 ```
 
-## Step 1
-There are two 'buttons' on the controller, **blue** is to make the Agent move left and **red** is to make the Agent move right. Write a code 
-so that when you stand on the red or blue blocks the Agent moves in the correct direction.  
+## Schritt 1
+Die Steuerung hat zwei farbige Felder: **Blau** bewegt den Agenten nach **links**, **Rot** nach **rechts**. Schreibe den Code so, dass der Agent in die passende Richtung geht, wenn du auf einem der Felder stehst.
 
 ### ~ tutorialhint
-A `||loops:while||` loop with the condition set to **True** will repeat continuously. 
+Eine `while`-Schleife mit der Bedingung `True` läuft immer weiter. `True` bedeutet „wahr“.
 
 ```template
-//Replace with your functions below #
-//Replace with comment about function below      
-//Declare function                                
-//If conditional with test for block condition (LIGHT_BLUE_CONCRETE)
-//Make the Agent move right
-//Elif conditional with test for block condition (RED_CONCRETE)
-//Make the Agent move left
-//Replace the lines below with your code #    
-//While loop with True as condition 
-//Call function                      
+// Schreibe hier deine Funktionen.
+// Beschreibe hier in einem Kommentar, was die folgende Funktion macht.
+// Definiere Funktion.
+// Ergänze eine if-Bedingung, die mit blocks.test_for_block() auf LIGHT_BLUE_CONCRETE prüft.
+// Lass den Agenten nach links gehen.
+// Ergänze eine elif-Bedingung, die mit blocks.test_for_block() auf RED_CONCRETE prüft.
+// Lass den Agenten nach rechts gehen.
+// Ersetze die folgenden Hinweise durch deinen Code.
+// Ergänze eine while-Schleife mit der Bedingung True.
+// Rufe Funktion auf.
 ```

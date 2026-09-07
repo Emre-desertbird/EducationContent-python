@@ -1,31 +1,25 @@
 ### @explicitHints true
 
-# Activity 2 - Dietary requirement.
+# Aufgabe 2 – Das richtige Hundefutter
 
 ```python
 blocks.place()
 ```
 
-## Step 1
-Give the **first** dog everything that's already in the predefined list by changing the values of the first **4** `||blocks:place block at position||`
-commands. So that they each place, in order, one of the items in the list. Then give the food from the chest to dog number one.
+## Schritt 1
+Der **erste Hund** soll alle Zutaten aus der vorgegebenen Liste bekommen. Ändere dafür die Listenindizes in den ersten **vier** `blocks.place()`-Befehlen. So werden die Zutaten der Reihe nach ausgewählt. Gib anschließend das Futter aus der Truhe an Hund 1. Die Namen stehen für Knochen (`Bone`), Rindfleisch (`Beef`), Hähnchen (`Chicken`), Keks (`Biscuit`) und Vitamine (`Vitamins`).
 
 ### ~ tutorialhint 
-To drop items from the hot bar press the [**Q**] key on your keyboard. 
+Wähle einen Gegenstand in deiner Schnellzugriffsleiste aus und drücke **Q**, um ihn fallen zu lassen.
 
-## Step 2
-Give the **second** dog everything that's already in the list with additonal vitamins added. 
-Do this by using the **append** method to add the variable **Vitamins** to the end of the list.
-Then change the value of the last `||blocks: place block at position||` command so that it places the vitamins in the machine, and 
-then give the food to dog number two.
+## Schritt 2
+Der **zweite Hund** bekommt dieselben Zutaten und zusätzlich Vitamine. Hänge `Vitamins` mit `append()` an das Ende der Liste an. Passe dann den letzten `blocks.place()`-Befehl so an, dass die Vitamine in die Maschine gelangen. Gib das Futter anschließend an Hund 2.
 
-## Step 3
-Give the **third** dog everything that's already in the list but with no **beef**. 
-Do this by using the **pop** method to remove the variable **Beef** from the list.
-Then give the food to dog number three.
+## Schritt 3
+Der **dritte Hund** bekommt die Zutaten aus der Liste, aber **ohne Rindfleisch**. Entferne den Eintrag `Beef` mit `pop()` aus der Liste. Gib das Futter anschließend an Hund 3.
 
 ### ~ tutorialhint 
-With the **pop** method you must use the list position value and **not** its name. 
+Bei `pop()` gibst du den **Index** des Eintrags an, den du entfernen möchtest. Denke daran: Der erste Eintrag hat den Index `0`.
 
 ```template
 Bone = world(-21, 45, -31)
@@ -33,18 +27,18 @@ Beef = world(-21, 45, -29)
 Chicken = world(-21, 45, -27)
 Biscuit = world(-21, 45, -25)
 Vitamins = world(-21, 45, -23)
-// Replace the lines below with your code #   
+// Ersetze die folgenden Hinweise durch deinen Code.
 Dog_Food=[Bone, Beef, Chicken, Biscuit]
-//Add the variable Vitamins to the list using the append method | Step 2
-//Remove the variable Beef using the pop method                          | Step 3
+// Hänge Vitamins mit append() an die Liste an. | Schritt 2
+// Entferne den Eintrag für Beef mit pop() aus der Liste. | Schritt 3
 
 blocks.place(REDSTONE_BLOCK, Dog_Food[0]) 
-//Change the numerical value of the list below         | Step 1
+// Passe den Listenindex im folgenden Befehl an. | Schritt 1
 blocks.place(REDSTONE_BLOCK, Dog_Food[0])
-//Change the numerical value of the list below         | Step 1
+// Passe den Listenindex im folgenden Befehl an. | Schritt 1
 blocks.place(REDSTONE_BLOCK, Dog_Food[0]) 
-//Change the numerical value of the list below         | Step 1
+// Passe den Listenindex im folgenden Befehl an. | Schritt 1
 blocks.place(REDSTONE_BLOCK, Dog_Food[0])   
-//Change the numerical value of the list below                  | Step 2
+// Passe den Listenindex im folgenden Befehl an. | Schritt 2
 blocks.place(REDSTONE_BLOCK, Dog_Food[0]) 
 ```

@@ -3,8 +3,8 @@
 ```python
 player.say
 ```
-## Introduction @unplugged
-    No coding is needed now, please go back to the map by exiting the coding window.
+## Einstieg @unplugged
+Hier brauchst du gerade keinen Code. Schließe das Codefenster, um zur Spielwelt zurückzukehren.
 
-## Step 1 
-    No coding is needed now, please go back to the map by exiting the coding window.
+## Schritt 1
+Hier brauchst du gerade keinen Code. Schließe das Codefenster, um zur Spielwelt zurückzukehren.

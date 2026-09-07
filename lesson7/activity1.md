@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 1 - Water barrier. 
+# Aufgabe 1 – Eine Mauer gegen das Wasser
 
 ```python
 agent.turn(LEFT_TURN)
@@ -11,20 +11,20 @@ while True:
       pass
 ```
 
-## Step 1
-**Part 1:** Write some code to make the Agent move forward when there is Redstone dust in front of it. 
+## Schritt 1
+**Teil 1:** Lass den Agenten vorwärtsgehen, **solange** Redstone-Staub vor ihm liegt. Verwende dafür eine `while`-Schleife. Sie wiederholt ihre Befehle, solange die Bedingung zutrifft.
 
-## Step 2 
-**Part 2:** Add a sequence to the code so that the Agent places a two-block high wall to its right as it moves. 
+## Schritt 2
+**Teil 2:** Ergänze den Ablauf so, dass der Agent beim Vorwärtsgehen **rechts von sich eine zwei Blöcke hohe Mauer** baut.
 ### ~ tutorialhint
-You do not have to give the Agent any blocks, it already has the required blocks in its inventory.  
+Der Agent hat die benötigten Blöcke bereits in seinem Inventar.
 ```template
-//Replace the lines below with your code #     
-//While loop with an Agent detect condition |Part 1
-//Make the Agent place a block to its right         |Part 2
-//Make the Agent move up                            |Part 2
-//Make the Agent place a block to its right         |Part 2
-//Make the Agent move back down                     |Part 2:
+// Ersetze die folgenden Hinweise durch deinen Code.
+// Ergänze eine while-Schleife mit agent.detect(). | Teil 1
+// Lass den Agenten rechts von sich einen Block setzen. | Teil 2
+// Lass den Agenten nach oben gehen. | Teil 2
+// Lass den Agenten rechts von sich einen Block setzen. | Teil 2
+// Lass den Agenten wieder nach unten gehen. | Teil 2
     agent.move(FORWARD, 1)
-//End of while loop                                
+// Ende der while-Schleife.
 ```
